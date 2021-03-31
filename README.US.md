@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,13 +55,13 @@ npm install --save @desco/group
 ### Node
 
 ```js
-const group = require('@desco/group')
+const group = require("@desco/group");
 ```
 
 ### Browse
 
 ```js
-import group from '@desco/group'
+import group from "@desco/group";
 ```
 
 ---
@@ -71,17 +71,17 @@ import group from '@desco/group'
 ## 📚 How to use
 
 ```js
-const group = require('./')
+const group = require("./");
 
-const a = [ 1, 2, 3, 4, 5, ]
-const b = [ 4, 5, 6, 7, 8, ]
-const c = [ 9, 10, 0, 2, ]
+const a = [1, 2, 3, 4, 5];
+const b = [4, 5, 6, 7, 8];
+const c = [9, 10, 0, 2];
 
-console.log('União:', group.union(a, b, c)) // União: [ 1, 2, 3, 4, 5,  4, 5, 6, 7, 8, 9, 10, 0, 2 ]
+console.log("União:", group.union(a, b, c)); // União: [ 1, 2, 3, 4, 5,  4, 5, 6, 7, 8, 9, 10, 0, 2 ]
 
-console.log('Intercessão:', group.intersection(a, b, c)) // Intercessão: [ 4, 5, 2 ]
+console.log("Intercessão:", group.intersection(a, b, c)); // Intercessão: [ 4, 5, 2 ]
 
-console.log('Diferença:', group.difference(a, b, c)) // Diferença: [ 6, 7, 8, 9, 10, 0 ]
+console.log("Diferença:", group.difference(a, b, c)); // Diferença: [ 6, 7, 8, 9, 10, 0 ]
 ```
 
 > Note that each parameter is a group and that infinite groups are possible
@@ -107,10 +107,10 @@ console.log('Diferença:', group.difference(a, b, c)) // Diferença: [ 6, 7, 8, 
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
